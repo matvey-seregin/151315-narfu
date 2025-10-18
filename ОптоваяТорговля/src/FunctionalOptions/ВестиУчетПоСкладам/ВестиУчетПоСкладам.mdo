@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be4d0ba0-8a2b-42e2-91fc-536d2249f775">
+  <name>ВестиУчетПоСкладам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет по складам</value>
+  </synonym>
+  <location>Constant.ИспользоватьУчетПоСкладам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Склады</content>
+  <content>Document.Покупка.Attribute.Склад</content>
+  <content>Document.Продажа.Attribute.СкладОтгрузки</content>
+</mdclass:FunctionalOption>

@@ -39,10 +39,30 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Покупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.Вывод</roles>
+  <roles>Role.Закупки</roles>
+  <roles>Role.ЗапускВебКлиента</roles>
+  <roles>Role.ЗапускМобильногоКлиента</roles>
+  <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Продажи</roles>
+  <roles>Role.СохранениеДанныхПользователя</roles>
+  <commonModules>CommonModule.ЛогированиеСистемыВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСТекстовымиДаннымиВызовСервера</commonModules>
+  <functionalOptions>FunctionalOption.ВестиУчетПоСкладам</functionalOptions>
+  <constants>Constant.ИспользоватьУчетПоСкладам</constants>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ВходПользователя</documents>
   <documents>Document.Покупка</documents>
   <documents>Document.Продажа</documents>
   <enums>Enum.ВидДоговора</enums>
