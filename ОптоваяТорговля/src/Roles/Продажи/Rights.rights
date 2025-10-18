@@ -13,6 +13,17 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.Продажа.Command.СчетНаОплату</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура</name>
@@ -22,6 +33,10 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -102,10 +117,6 @@
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.Attribute.ВидДоговора</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -119,6 +130,21 @@
 	</object>
 	<object>
 		<name>Catalog.Организации</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ЦеныНоменклатуры</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -230,10 +256,6 @@
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.Attribute.Организация</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -246,11 +268,22 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.ДоговорыКонтрагентов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -259,20 +292,12 @@
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Predefined</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -281,20 +306,12 @@
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.DeletionMark</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -303,20 +320,12 @@
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Owner</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -325,20 +334,12 @@
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Description</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

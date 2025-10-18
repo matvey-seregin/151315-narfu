@@ -10,4 +10,5 @@
   <content>Document.Продажа</content>
   <content>Report.ОтчетПоПродажам</content>
   <content>FunctionalOption.ВестиУчетПоСкладам</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
 </mdclass:Subsystem>

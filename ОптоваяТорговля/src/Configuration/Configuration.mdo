@@ -54,6 +54,8 @@
   <roles>Role.Продажи</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <commonModules>CommonModule.ЛогированиеСистемыВызовСервера</commonModules>
+  <commonModules>CommonModule.ЦеныНоменклатуры</commonModules>
+  <commonModules>CommonModule.ЦеныНоменклатурыВызовСервера</commonModules>
   <functionalOptions>FunctionalOption.ВестиУчетПоСкладам</functionalOptions>
   <constants>Constant.ИспользоватьУчетПоСкладам</constants>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
@@ -69,6 +71,7 @@
   <enums>Enum.Должности</enums>
   <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.ОтчетПоПродажам</reports>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
