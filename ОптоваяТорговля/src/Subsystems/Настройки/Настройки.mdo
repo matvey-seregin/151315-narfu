@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Constant.ИспользоватьУчетПоСкладам</content>
   <content>Document.ВходПользователя</content>
+  <content>Catalog.Сотрудники</content>
 </mdclass:Subsystem>

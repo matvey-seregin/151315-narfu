@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d33edbd5-4ab9-47f3-97f3-3020396a286c">
+  <producedTypes>
+    <refType typeId="58ee1b39-89dc-48d1-9d5f-d65cd55f6cf8" valueTypeId="eb02dcae-fa3c-462e-8d18-5aab1ed60987"/>
+    <listType typeId="51ec16ec-b554-48b9-9a6b-bcf147286fde" valueTypeId="28ec1643-6b29-43bc-bc1f-eb429ed9cfbc"/>
+    <managerType typeId="5b89ec9d-31a5-4655-89a4-98b78cdc4de7" valueTypeId="dd25fd72-d8f8-49cc-bee6-eadde44d8aea"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6a0b3465-24fa-4a50-b7c4-24d1dc5e7b9c">
+    <name>СистемныйАдминистратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системный администратор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72a129a8-d6be-485e-a416-c545a09ee619">
+    <name>МенеджерПоЗакупкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по закупкам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3e90485-eabb-430b-b1ed-db4b5ab612c7">
+    <name>МенеджерПоПродажам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по продажам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

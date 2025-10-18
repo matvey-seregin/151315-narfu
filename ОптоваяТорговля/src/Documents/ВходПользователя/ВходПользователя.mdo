@@ -72,14 +72,13 @@
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="b20eb93c-ae35-4345-97ac-d4dc80c94942">
-    <name>ПользовательИнформационнойБазы</name>
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>Пользователь информационной базы</value>
+      <value>Сотрудник</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

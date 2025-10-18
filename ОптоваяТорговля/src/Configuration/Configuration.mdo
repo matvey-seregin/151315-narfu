@@ -54,7 +54,6 @@
   <roles>Role.Продажи</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <commonModules>CommonModule.ЛогированиеСистемыВызовСервера</commonModules>
-  <commonModules>CommonModule.РаботаСТекстовымиДаннымиВызовСервера</commonModules>
   <functionalOptions>FunctionalOption.ВестиУчетПоСкладам</functionalOptions>
   <constants>Constant.ИспользоватьУчетПоСкладам</constants>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
@@ -62,10 +61,12 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ВходПользователя</documents>
   <documents>Document.Покупка</documents>
   <documents>Document.Продажа</documents>
   <enums>Enum.ВидДоговора</enums>
+  <enums>Enum.Должности</enums>
   <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.ОтчетПоПродажам</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
