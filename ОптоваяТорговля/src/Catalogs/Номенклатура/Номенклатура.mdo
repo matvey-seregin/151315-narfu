@@ -112,22 +112,18 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="a992921b-06c4-43db-b9ea-718aec9b6888">
-    <name>Цена</name>
+  <attributes uuid="1d376c5c-1517-4993-816c-8346dc5628b6">
+    <name>ТипНоменклатуры</name>
     <synonym>
       <key>ru</key>
-      <value>Цена</value>
+      <value>Тип номенклатуры</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>3</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>EnumRef.ТипНоменклатуры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

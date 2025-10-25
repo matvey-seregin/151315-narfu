@@ -13,4 +13,5 @@
   <content>Catalog.Организации</content>
   <content>Catalog.Склады</content>
   <content>FunctionalOption.ВестиУчетПоСкладам</content>
+  <content>Document.УстановкаЦенНоменклатуры</content>
 </mdclass:Subsystem>

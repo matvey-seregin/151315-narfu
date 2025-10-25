@@ -54,6 +54,7 @@
   <roles>Role.Продажи</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <commonModules>CommonModule.ЛогированиеСистемыВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСДоговорамиКонтрагентов</commonModules>
   <commonModules>CommonModule.ЦеныНоменклатуры</commonModules>
   <commonModules>CommonModule.ЦеныНоменклатурыВызовСервера</commonModules>
   <functionalOptions>FunctionalOption.ВестиУчетПоСкладам</functionalOptions>
@@ -67,8 +68,10 @@
   <documents>Document.ВходПользователя</documents>
   <documents>Document.Покупка</documents>
   <documents>Document.Продажа</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.Должности</enums>
+  <enums>Enum.ТипНоменклатуры</enums>
   <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.ОтчетПоПродажам</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
