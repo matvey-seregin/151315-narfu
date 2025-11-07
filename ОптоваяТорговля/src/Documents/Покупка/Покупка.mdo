@@ -29,7 +29,9 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Покупка.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.Покупка.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.АвансыПоставщикам</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.ЗадолженостьПередПоставщиками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c96558ae-2f7f-4009-a36b-c64b9086a116">
@@ -134,6 +136,26 @@
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ccdbfd1f-1d13-4b71-8ccf-e299b1067af4">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

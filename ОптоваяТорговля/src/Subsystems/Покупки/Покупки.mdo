@@ -9,4 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Покупка</content>
   <content>FunctionalOption.ВестиУчетПоСкладам</content>
+  <content>AccumulationRegister.ЗадолженостьПередПоставщиками</content>
+  <content>Document.СписаниеСРасчетногоСчета</content>
+  <content>AccumulationRegister.АвансыПоставщикам</content>
 </mdclass:Subsystem>
