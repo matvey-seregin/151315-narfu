@@ -45,7 +45,7 @@
   <subsystems>Subsystem.Продажи</subsystems>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.БазовыеПрава</roles>
-  <roles>Role.Вывод</roles>
+  <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
   <roles>Role.Закупки</roles>
   <roles>Role.ЗапускВебКлиента</roles>
   <roles>Role.ЗапускМобильногоКлиента</roles>
