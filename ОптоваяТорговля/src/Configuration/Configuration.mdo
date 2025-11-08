@@ -67,7 +67,9 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ВходПользователя</documents>
   <documents>Document.Покупка</documents>
+  <documents>Document.ПоступлениеНаРасчетныйСчет</documents>
   <documents>Document.Продажа</documents>
+  <documents>Document.СписаниеСРасчетногоСчета</documents>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.Должности</enums>
@@ -75,6 +77,10 @@
   <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.ОтчетПоПродажам</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.АвансыПокупателей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.АвансыПоставщикам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗадолженостьПередПоставщиками</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

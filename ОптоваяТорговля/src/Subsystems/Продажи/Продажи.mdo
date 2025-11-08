@@ -11,4 +11,7 @@
   <content>Report.ОтчетПоПродажам</content>
   <content>FunctionalOption.ВестиУчетПоСкладам</content>
   <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>AccumulationRegister.ЗадолженностьПокупателей</content>
+  <content>Document.ПоступлениеНаРасчетныйСчет</content>
+  <content>AccumulationRegister.АвансыПокупателей</content>
 </mdclass:Subsystem>
