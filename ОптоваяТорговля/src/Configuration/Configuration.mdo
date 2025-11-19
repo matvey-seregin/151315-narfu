@@ -76,6 +76,7 @@
   <enums>Enum.ТипНоменклатуры</enums>
   <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.ОтчетПоПродажам</reports>
+  <dataProcessors>DataProcessor.СформироватьАрхив</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АвансыПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.АвансыПоставщикам</accumulationRegisters>

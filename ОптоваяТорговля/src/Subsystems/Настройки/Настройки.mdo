@@ -10,4 +10,5 @@
   <content>Constant.ИспользоватьУчетПоСкладам</content>
   <content>Document.ВходПользователя</content>
   <content>Catalog.Сотрудники</content>
+  <content>DataProcessor.СформироватьАрхив</content>
 </mdclass:Subsystem>
