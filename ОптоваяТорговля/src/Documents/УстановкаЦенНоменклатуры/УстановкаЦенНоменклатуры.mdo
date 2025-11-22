@@ -137,4 +137,11 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="e19dd514-44d8-4d61-9f3d-a5d00319943e">
+    <name>МакетДляВыгрузкиExcel</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет для выгрузки excel</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
