@@ -153,4 +153,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="b854e5e7-847c-4c6a-8b6a-8f91fe533d1d">
+    <name>ФормаПодбораСКорзиной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора с корзиной</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

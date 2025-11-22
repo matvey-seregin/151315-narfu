@@ -56,6 +56,8 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.ЗаказПокупателя</basedOn>
+  <basedOn>Document.Продажа</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -103,7 +105,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <choiceParameterLinks>
-      <name>Отбор.ВидДоговора</name>
+      <name>Отбор.Владелец</name>
       <field>Document.ПоступлениеНаРасчетныйСчет.Attribute.Контрагент</field>
     </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>

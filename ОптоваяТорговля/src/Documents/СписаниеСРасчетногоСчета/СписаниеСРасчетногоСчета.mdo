@@ -62,7 +62,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <choiceParameterLinks>
-      <name>Отбор.ВидДоговора</name>
+      <name>Отбор.Владелец</name>
       <field>Document.СписаниеСРасчетногоСчета.Attribute.Контрагент</field>
     </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>

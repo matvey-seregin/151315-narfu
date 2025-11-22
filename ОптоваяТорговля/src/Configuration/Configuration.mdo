@@ -57,6 +57,9 @@
   <commonModules>CommonModule.РаботаСДоговорамиКонтрагентов</commonModules>
   <commonModules>CommonModule.ЦеныНоменклатуры</commonModules>
   <commonModules>CommonModule.ЦеныНоменклатурыВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбменМобильноеПриложение</commonModules>
+  <exchangePlans>ExchangePlan.ОбменСМобильнымПриложением</exchangePlans>
+  <httpServices>HTTPService.МобильноеПриложение</httpServices>
   <functionalOptions>FunctionalOption.ВестиУчетПоСкладам</functionalOptions>
   <constants>Constant.ИспользоватьУчетПоСкладам</constants>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
@@ -71,11 +74,13 @@
   <documents>Document.Продажа</documents>
   <documents>Document.СписаниеСРасчетногоСчета</documents>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <documents>Document.ЗаказПокупателя</documents>
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.Должности</enums>
   <enums>Enum.ТипНоменклатуры</enums>
   <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.ОтчетПоПродажам</reports>
+  <reports>Report.АктСверки</reports>
   <dataProcessors>DataProcessor.СформироватьАрхив</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АвансыПокупателей</accumulationRegisters>

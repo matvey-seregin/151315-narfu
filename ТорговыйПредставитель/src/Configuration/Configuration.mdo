@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b0e722d-191b-453b-b520-77ad59494f74">
+  <name>ТорговыйПредставитель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговый представитель</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c8b7f057-9c2b-4b73-a738-a3e3555720f3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="11c737d4-2cae-46d8-890e-2a8550789c65"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="dffa698f-b2a4-4694-8028-22559dc52441"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c8364ac4-2b46-4963-8b2f-b01dc5884593"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="22a65de4-f011-4e83-bb87-faa5b618917f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="64b640f5-4bfe-4e27-b1ea-4458a26f23bc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="5207bc84-6028-467a-81c9-aa3ac7016949"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="4b0af685-1ec6-4e1f-bbeb-826bd5e3ee06">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Заказы</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <constants>Constant.АдресЦентральнойБазы</constants>
+  <constants>Constant.ЛогинЦентральнойБазы</constants>
+  <constants>Constant.ПарольЦентральнойБазы</constants>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ЗаказПокупателя</documents>
+  <dataProcessors>DataProcessor.ОбменСЦентральнойБазой</dataProcessors>
+</mdclass:Configuration>

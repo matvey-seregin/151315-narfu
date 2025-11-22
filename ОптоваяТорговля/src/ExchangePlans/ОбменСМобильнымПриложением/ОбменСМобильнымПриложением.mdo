@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3423621-41a7-45ba-9f4e-8f49ca25308b" thisNode="4a59ca8e-e0b0-48f1-b200-0cd1dea2386e">
+  <producedTypes>
+    <objectType typeId="d1273956-6d60-4739-b12e-468cc53b4e32" valueTypeId="38083dcc-9561-4c9e-9488-98d402ac4f22"/>
+    <refType typeId="a3300930-ea2b-4a59-8a5a-45c1a00ad472" valueTypeId="9cd40e8e-632b-4cb9-87b5-165fae41b6ad"/>
+    <selectionType typeId="e2b2447b-54d5-45ef-adff-185caef87325" valueTypeId="3db294f4-46bf-4b77-a41d-ef2a5d2bb161"/>
+    <listType typeId="16c8465a-70ac-4250-86a6-0926e135ec80" valueTypeId="ff183ab2-b6db-4fc4-bb18-457de659bffc"/>
+    <managerType typeId="b66eaed4-34b3-4e01-a363-4227bcabb163" valueTypeId="110daf4a-aa13-473f-add8-927d54de07d4"/>
+  </producedTypes>
+  <name>ОбменСМобильнымПриложением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильным приложением</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСМобильнымПриложением.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.ОбменСМобильнымПриложением.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Обмены с мобильными приложениями</value>
+  </listPresentation>
+  <codeLength>36</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ДоговорыКонтрагентов</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bf54923d-92c1-4131-b202-6b53285d8e9a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ExchangePlan>

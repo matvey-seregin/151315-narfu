@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84afdc25-38ac-43c7-8909-c3035c0e61f2">
+  <producedTypes>
+    <objectType typeId="0708ade2-840d-4e36-a0db-5c5f3996f570" valueTypeId="fae9d7fb-725a-4505-9979-0c7c3fae1b19"/>
+    <refType typeId="eaa4fd7a-5363-4327-a4cc-89ae9f479628" valueTypeId="667c31d6-5d7a-472a-a96e-6c5dc0c4a6e8"/>
+    <selectionType typeId="faa69908-b60d-4d58-82b1-8124239d7223" valueTypeId="cd68190f-fa2c-4b17-b379-aaf0c77fb77e"/>
+    <listType typeId="27f1af81-e16b-4191-bcb1-083a98dc44b8" valueTypeId="dbbfe065-c539-4fb5-8f15-a2cf5ce81dc1"/>
+    <managerType typeId="6b4df19e-b17a-4603-a9d6-e40d7ccff05e" valueTypeId="d06b65e4-9ed2-471d-a723-a0f6c9b73c12"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c8972fdc-f448-4e80-98e4-1d10ded5beec">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
