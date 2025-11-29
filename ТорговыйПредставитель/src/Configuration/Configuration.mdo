@@ -73,6 +73,7 @@
   </languages>
   <subsystems>Subsystem.Заказы</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
+  <exchangePlans>ExchangePlan.ОбменСЦентральнойБазой</exchangePlans>
   <constants>Constant.АдресЦентральнойБазы</constants>
   <constants>Constant.ЛогинЦентральнойБазы</constants>
   <constants>Constant.ПарольЦентральнойБазы</constants>
