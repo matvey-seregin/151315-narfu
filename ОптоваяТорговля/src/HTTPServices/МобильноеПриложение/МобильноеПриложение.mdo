@@ -40,4 +40,21 @@
       <handler>ПолучитьДанные</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="e5bb82a3-13b3-4a19-91d7-4cdd43af237e">
+    <name>Receive</name>
+    <synonym>
+      <key>ru</key>
+      <value>Receive</value>
+    </synonym>
+    <template>/receive</template>
+    <methods uuid="6a36233a-e823-42d1-a177-7a71a7159505">
+      <name>СформироватьДанныеЗаказа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сформировать данные заказа</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СформироватьДанныеЗаказа</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
