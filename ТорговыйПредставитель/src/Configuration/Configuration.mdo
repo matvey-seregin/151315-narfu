@@ -20,7 +20,39 @@
       <use>true</use>
     </functionality>
     <functionality>
+      <functionality>Camera</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Microphone</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>MusicLibrary</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>PictureAndVideoLibraries</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>AudioPlaybackAndVibration</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>BackgroundAudioPlaybackAndVibration</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
       <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>BackgroundAudioRecording</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>DocumentScanning</functionality>
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
