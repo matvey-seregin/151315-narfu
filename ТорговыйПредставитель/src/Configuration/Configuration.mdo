@@ -82,4 +82,5 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <dataProcessors>DataProcessor.ОбменСЦентральнойБазой</dataProcessors>
+  <informationRegisters>InformationRegister.ФотографииЗаказов</informationRegisters>
 </mdclass:Configuration>

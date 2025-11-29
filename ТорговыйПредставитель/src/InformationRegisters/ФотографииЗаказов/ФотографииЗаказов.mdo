@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b300c7dc-8cf3-4c87-afae-2eaa2e4263f4">
+  <producedTypes>
+    <selectionType typeId="5bf6d0ba-354f-446d-a2bf-086f447bef9a" valueTypeId="0c539242-8f85-4db8-b840-81b181fee68b"/>
+    <listType typeId="f11a5d8c-f8c5-4e05-855c-a02b5337e9b7" valueTypeId="d72e7998-b591-415f-94ac-840a045650ad"/>
+    <managerType typeId="20c3f693-ebc3-4684-8561-61031cd44747" valueTypeId="7d9e81f6-1b25-4d2f-94af-c404f7c23c62"/>
+    <recordSetType typeId="6b7301df-c043-4da8-8619-b404f4ede2fb" valueTypeId="6584dc34-b770-4af4-a33a-9d498aa69d6c"/>
+    <recordKeyType typeId="4db3714f-84c0-47ab-80d5-b913128fdbd1" valueTypeId="e6bfc172-bc90-45da-8004-b48d7302eb77"/>
+    <recordType typeId="c562281b-18e8-461e-a0ab-e7b0ca2572c3" valueTypeId="fcf7ae03-694d-4775-930a-b52bedbbb105"/>
+    <recordManagerType typeId="fef01daa-c3db-4dfc-bd56-90aa53807961" valueTypeId="f23ab75d-eb00-4185-bea6-c8ef3ffc05eb"/>
+  </producedTypes>
+  <name>ФотографииЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фотографии заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5dacb570-7247-4ba0-8be1-5e095edac772">
+    <name>ДанныеФото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные фото</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d462d5b4-3045-4d52-a758-0ea144625637">
+    <name>Подпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5c20a66b-c97a-4d05-8f48-f07e1f73fabc">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a183027b-2063-460a-8155-6cc95a811ce2">
+    <name>НомерФотографии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер фотографии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
