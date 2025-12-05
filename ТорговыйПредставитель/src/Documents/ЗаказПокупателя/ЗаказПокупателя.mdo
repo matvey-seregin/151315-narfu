@@ -97,6 +97,54 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2d461a55-f14c-4bfd-973e-7ab25284ed54">
+    <name>ДатаНачалаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="acf76bc9-48c3-457a-93b6-3fe3fae37551">
+    <name>ДатаОкончанияРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6d87e394-9e96-4fae-9720-92ac520106d3">
+    <name>ГеоПозиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гео позиция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="7c86d145-1831-490c-b8c8-20c8ca91d5e0">
     <name>ФормаСписка</name>
     <synonym>

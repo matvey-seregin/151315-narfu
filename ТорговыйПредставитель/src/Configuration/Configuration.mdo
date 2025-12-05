@@ -55,6 +55,46 @@
       <functionality>DocumentScanning</functionality>
       <use>true</use>
     </functionality>
+    <functionality>
+      <functionality>BackgroundLocation</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Location</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Geofences</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>NumberDialing</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>CallProcessing</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>CallLog</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>AutoSendSMS</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>ReceiveSMS</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>SMSLog</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Contacts</functionality>
+      <use>true</use>
+    </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
