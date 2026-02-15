@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92867746-43a6-4d42-9bd1-9b3339071744">
+  <name>ДемоПримерыОбменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо примеры обменов</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4c039148-a7fc-4058-82d7-1299fde2ee98"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="75b5958a-2d91-41db-93be-c8591b00757e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5f28e0f3-4ac2-4043-afdb-be00206e92b0"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b40179a7-a5d9-490a-9c74-dcce46eda6ca"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5d452d82-ee3c-4cc2-ba14-511f9403b2cb"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4d9571d9-c7ac-48e2-b392-ce7bcd57eb0e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a60087d7-2ed5-4ad0-ad83-a4f8bd997d7a"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="02d44219-22e3-421a-ad1f-1fba4001b235">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <catalogs>Catalog.Файлы</catalogs>
+  <dataProcessors>DataProcessor.РаботаСФайлами</dataProcessors>
+</mdclass:Configuration>
