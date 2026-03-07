@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0d5efbb-49e4-4769-9ca6-ef8ab9c6fda1">
+  <producedTypes>
+    <objectType typeId="c42a62ce-3a2a-4a69-a9f3-b1ffb7462af4" valueTypeId="19636ab8-8ef3-4917-bf3b-8d3ca5b8a645"/>
+    <refType typeId="4cf5de16-81c3-4b47-b19c-abdc0cbfac70" valueTypeId="957e2ee8-bb6c-4ca4-9fa9-113680786044"/>
+    <selectionType typeId="f06da46d-20ca-4d0f-8b5e-f3701aa45322" valueTypeId="19578602-8bc3-43d0-ac16-88580fa7a243"/>
+    <listType typeId="07b11f88-9326-40d3-9499-b345bfe89520" valueTypeId="59f8590a-51b1-4d0f-801a-37215082a607"/>
+    <managerType typeId="002789b6-59cb-4399-9a9b-9b64b409227b" valueTypeId="4d06db32-0635-4ede-91ca-e56d4f67ff1d"/>
+  </producedTypes>
+  <name>ЗначенияХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения характеристик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗначенияХарактеристик.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЗначенияХарактеристик.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Значение характеристики</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.ХарактеристикиНоменклатуры</owners>
+  <owners>ChartOfCharacteristicTypes.ХарактеристикиГостиничныхНомеров</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

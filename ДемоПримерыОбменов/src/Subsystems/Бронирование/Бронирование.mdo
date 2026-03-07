@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16a7d7e7-1332-4574-a269-cce25bc739f7">
+  <name>Бронирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номера</content>
+  <content>ChartOfCharacteristicTypes.ХарактеристикиГостиничныхНомеров</content>
+  <content>Catalog.ЗначенияХарактеристик</content>
+  <content>InformationRegister.ЗначенияХарактеристикГостиничныхНомеров</content>
+  <content>InformationRegister.ДатыБронирований</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаXLSX</content>
+</mdclass:Subsystem>

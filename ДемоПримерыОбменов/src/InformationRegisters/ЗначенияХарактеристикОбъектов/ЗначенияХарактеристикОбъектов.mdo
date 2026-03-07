@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcf7f3ad-3249-4d74-83f4-f591132f31c1">
+  <producedTypes>
+    <selectionType typeId="6fdc9363-671d-43e8-8154-7bebd96d582e" valueTypeId="d01449e4-3643-4e65-bc12-fbdbf53ed001"/>
+    <listType typeId="a2de6058-6400-4ccf-b807-d6404024b986" valueTypeId="20d3adce-71ef-4be0-90b0-aa27ca6551dc"/>
+    <managerType typeId="413cbbfe-b04a-468e-a6f6-57fb3c02aea5" valueTypeId="2ae9593a-5877-4042-a9d8-501af0c887db"/>
+    <recordSetType typeId="9cfb7c71-393e-4b79-b4ff-33987a9b2fa2" valueTypeId="f10e7a87-0a41-41fa-962a-c5985800660d"/>
+    <recordKeyType typeId="f5265995-83dd-4f1d-b1ec-c767d1261aa5" valueTypeId="5bbe153e-91df-4285-91c2-c9408fb0914a"/>
+    <recordType typeId="afae09c0-7f63-4387-9f7f-1e116f00834c" valueTypeId="3776d340-51c5-47f1-a232-39f793a22a10"/>
+    <recordManagerType typeId="4c9c85b8-4d1f-43b9-8051-7a7437f415de" valueTypeId="37a48f33-db12-4524-a16b-7481655df149"/>
+  </producedTypes>
+  <name>ЗначенияХарактеристикОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения характеристик объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="36428109-4d66-4f50-9a0d-b2853e7af1b1">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ЗначенияХарактеристикОбъектов.Dimension.Свойство</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ЗначенияХарактеристикОбъектов.Dimension.Свойство</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c029ba02-ef52-4e22-9e78-cfa78ad84b79">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="02030bb3-25bc-49b4-b14c-7e2d5a5b9730">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdc0cca6-a28d-4517-b8b2-d70fe08f9e8c">
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ЗначенияХарактеристик</content>
+  <content>ChartOfCharacteristicTypes.ХарактеристикиНоменклатуры</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>InformationRegister.ЗначенияХарактеристикОбъектов</content>
+</mdclass:Subsystem>

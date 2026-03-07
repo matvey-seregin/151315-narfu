@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57d6566d-8b36-4ba8-9ed8-596f78845fed">
+  <producedTypes>
+    <objectType typeId="4659b07b-7846-49de-af8b-c33c2390c475" valueTypeId="33fff36d-afa7-4828-8cf1-47f0cdaa6611"/>
+    <refType typeId="5f5b003b-82b5-4724-a5ba-d77a04ee79ea" valueTypeId="a56c2f25-ef01-498b-b696-1415847a3bb7"/>
+    <selectionType typeId="91ea7be2-20af-4051-a454-a962a8bfe8d7" valueTypeId="82e19c79-f3aa-4ec1-b689-03087b1c18b5"/>
+    <listType typeId="f88853d3-a84f-4fc1-a175-570736fe108c" valueTypeId="babae751-eeef-4a6b-bc71-41e3bea1a0d4"/>
+    <managerType typeId="5e8f19fd-7835-4ff9-a514-62a982556fc2" valueTypeId="730a3ecd-f926-444f-af7d-db5145501178"/>
+    <containerType typeId="12dbd08a-3702-4211-a6c8-2e2c87fc0930" valueTypeId="e6584650-519f-489a-aed3-6e2076295a70"/>
+  </producedTypes>
+  <name>ХарактеристикиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ХарактеристикиНоменклатуры.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ХарактеристикиНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Характеристика номенклатуры</value>
+  </objectPresentation>
+  <characteristicExtValues>Catalog.ЗначенияХарактеристик</characteristicExtValues>
+  <type>
+    <types>CatalogRef.ЗначенияХарактеристик</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

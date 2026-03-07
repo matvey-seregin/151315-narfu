@@ -39,7 +39,20 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Бронирование</subsystems>
+  <subsystems>Subsystem.Номенклатура</subsystems>
+  <subsystems>Subsystem.Файлы</subsystems>
   <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <catalogs>Catalog.ЗначенияХарактеристик</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Номера</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаXLSX</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСФайлами</dataProcessors>
+  <informationRegisters>InformationRegister.ДатыБронирований</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияХарактеристикГостиничныхНомеров</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияХарактеристикОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ХарактеристикиГостиничныхНомеров</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ХарактеристикиНоменклатуры</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

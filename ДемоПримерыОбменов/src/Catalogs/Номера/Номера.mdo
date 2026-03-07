@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="409a8ec3-cfea-4630-8f9e-e65ebddd2de6">
+  <producedTypes>
+    <objectType typeId="ec28a1f4-2f60-403f-8d4e-6023a380cf64" valueTypeId="d8c443ce-fc49-4283-bb6f-6ebca8e1c5ae"/>
+    <refType typeId="d67738db-71b2-4a70-8512-e42dd8a0581d" valueTypeId="12d80b28-ee56-497a-80ba-0d801684b3a2"/>
+    <selectionType typeId="549625ad-4bed-4293-95fa-176c98fb83f5" valueTypeId="425d0ec1-88f4-42f5-9f96-59cb0e42ae15"/>
+    <listType typeId="1c4ebb56-9586-4745-afe7-4f058e3e7a4f" valueTypeId="5ffab0fc-da7c-46b4-8b71-9b94ca01192b"/>
+    <managerType typeId="0e672b03-01d9-4a4a-881b-f89b05fc5f8a" valueTypeId="2d991483-908f-49dc-b77f-905da5b9fc63"/>
+  </producedTypes>
+  <name>Номера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номера.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номера.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номер</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

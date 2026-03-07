@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f555ae41-e43a-40f3-a3f2-4ce4abce6fb5">
+  <producedTypes>
+    <selectionType typeId="c5d4e2c9-4b43-49dc-9a41-f1273c0bb115" valueTypeId="1897bfeb-a0ea-40cb-afad-73985cafe512"/>
+    <listType typeId="9525a91a-939d-41e5-ad2e-3f69bd8720d3" valueTypeId="ed3269cd-1cc5-4286-9831-75a960573a66"/>
+    <managerType typeId="92369c53-8356-4fe6-bd90-6b599f44773c" valueTypeId="a2e791f0-8a13-4c1c-be14-6c4589e75ef5"/>
+    <recordSetType typeId="939ad738-7630-4d9a-80f4-56a507937749" valueTypeId="0f7fdcbc-2ca7-4a67-bfc8-38b9802e46ea"/>
+    <recordKeyType typeId="43051d7c-b452-4199-a754-6f75c19d6e55" valueTypeId="05b2201c-6c99-4dc0-aa9d-0bfc105f6a1f"/>
+    <recordType typeId="2041b34b-5ac1-45b7-85a3-59617df5040a" valueTypeId="8e3b68a2-fc50-4dd8-b4a9-e648d8851323"/>
+    <recordManagerType typeId="ac85b0a2-3310-466c-877b-576e23f6df70" valueTypeId="a847845b-0840-49b2-abfd-f2a6bdb8c691"/>
+  </producedTypes>
+  <name>ДатыБронирований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты бронирований</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Даты бронирования</value>
+  </recordPresentation>
+  <resources uuid="db8eb9c3-df2d-491c-baef-691efb6c0196">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1e942ea8-5f39-4f13-93b7-43ad0fa83af2">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9dafe985-51e2-4f35-bbdc-c8da6be1c1a5">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

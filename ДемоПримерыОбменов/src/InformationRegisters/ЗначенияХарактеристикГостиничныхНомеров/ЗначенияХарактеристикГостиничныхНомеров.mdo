@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d923780e-3fd6-43f7-994d-b0a87a010325">
+  <producedTypes>
+    <selectionType typeId="1fee673c-ef11-49da-93df-1f22e02176a8" valueTypeId="f05f7cfd-d250-492e-97be-a8c65a765396"/>
+    <listType typeId="a99cba75-2e73-460c-9db8-2b45500616af" valueTypeId="48507f1c-74c5-447b-8716-4203b39398c5"/>
+    <managerType typeId="2218f4d2-0804-4457-b5a9-d04f9c2e4ed0" valueTypeId="6f9a9821-fdee-4d65-a17f-c0366b7191b4"/>
+    <recordSetType typeId="60ab1986-7303-4290-8da4-6caaa55cc5ae" valueTypeId="cf259d61-6685-4baf-a689-b81060fabc48"/>
+    <recordKeyType typeId="44d7ab20-e658-4ecf-afc3-4956b28657af" valueTypeId="b8b63b66-872e-498c-be9f-5b590a711ba0"/>
+    <recordType typeId="8a27a61d-86a8-4c91-9a3a-87f62de5ab6f" valueTypeId="1a6567fe-a7a6-4075-9ff3-9121e5c15e8f"/>
+    <recordManagerType typeId="041ec846-5b7a-44e5-b53f-c94fe6ed48b1" valueTypeId="8691f648-ead0-44aa-be96-20a71206b878"/>
+  </producedTypes>
+  <name>ЗначенияХарактеристикГостиничныхНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения характеристик гостиничных номеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8351d09a-33f9-44a1-9d6a-0964e97df793">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ХарактеристикиГостиничныхНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ЗначенияХарактеристикГостиничныхНомеров.Dimension.Свойство</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ЗначенияХарактеристикГостиничныхНомеров.Dimension.Свойство</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="019b6bd5-067a-4d1e-9582-14ca5023dc54">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3f3e0758-72ce-49f3-a668-17b6a1b2ad1d">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ХарактеристикиГостиничныхНомеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
