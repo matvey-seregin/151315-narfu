@@ -47,6 +47,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Номера</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаCSV</dataProcessors>
   <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаXLSX</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСФайлами</dataProcessors>
   <informationRegisters>InformationRegister.ДатыБронирований</informationRegisters>

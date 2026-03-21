@@ -13,4 +13,5 @@
   <content>InformationRegister.ЗначенияХарактеристикГостиничныхНомеров</content>
   <content>InformationRegister.ДатыБронирований</content>
   <content>DataProcessor.ВыгрузкаЗагрузкаXLSX</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаCSV</content>
 </mdclass:Subsystem>
