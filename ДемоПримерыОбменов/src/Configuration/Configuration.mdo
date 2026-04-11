@@ -43,12 +43,15 @@
   <subsystems>Subsystem.Номенклатура</subsystems>
   <subsystems>Subsystem.Файлы</subsystems>
   <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <commonModules>CommonModule.ОбработкаДанных</commonModules>
+  <xDTOPackages>XDTOPackage.Booking</xDTOPackages>
   <catalogs>Catalog.ЗначенияХарактеристик</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Номера</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаCSV</dataProcessors>
   <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаXLSX</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаXML</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСФайлами</dataProcessors>
   <informationRegisters>InformationRegister.ДатыБронирований</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияХарактеристикГостиничныхНомеров</informationRegisters>

@@ -1,0 +1,23 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://narfu.ru/151315/booking">
+	<objectType name="room">
+		<property name="name" type="xs:string"/>
+		<property name="id" type="xs:string" form="Attribute"/>
+		<property name="code" type="xs:string"/>
+		<property name="description" type="xs:string"/>
+	</objectType>
+	<objectType name="rooms">
+		<property xmlns:d3p1="http://narfu.ru/151315/booking" name="room" type="d3p1:room" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="book">
+		<property name="roomId" type="xs:string"/>
+		<property name="startDate" type="xs:date"/>
+		<property name="endDate" type="xs:date"/>
+	</objectType>
+	<objectType name="books">
+		<property xmlns:d3p1="http://narfu.ru/151315/booking" name="book" type="d3p1:book" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="exportData">
+		<property xmlns:d3p1="http://narfu.ru/151315/booking" name="rooms" type="d3p1:rooms"/>
+		<property xmlns:d3p1="http://narfu.ru/151315/booking" name="books" type="d3p1:books"/>
+	</objectType>
+</package>

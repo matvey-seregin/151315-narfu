@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9427b77c-fc2f-477e-8853-bcfbb3990fcb">
+  <name>Booking</name>
+  <synonym>
+    <key>ru</key>
+    <value>Booking</value>
+  </synonym>
+  <namespace>http://narfu.ru/151315/booking</namespace>
+</mdclass:XDTOPackage>
