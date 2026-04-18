@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a407b8cb-30c0-4529-b7f1-1f20570432f9">
+  <producedTypes>
+    <objectType typeId="26e86542-417b-4732-b93e-58b078c6240f" valueTypeId="5a6476d7-dc6c-4a04-ac41-a9fa4f5f3441"/>
+    <managerType typeId="dd7c7c70-d613-4cf4-9d72-748029655715" valueTypeId="5c16ca7a-c211-41ee-8f37-ea915463c4e8"/>
+  </producedTypes>
+  <name>ПолучениеДанныхHTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение данных HTTP</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучениеДанныхHTTP.Form.Форма</defaultForm>
+  <forms uuid="7a075057-682b-4d2b-9c09-81d283b5b7f4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="443b5dd4-9b73-4bcd-a7f4-f22357960ba2">
+    <name>ВводНовогоБронирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод нового бронирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57c7f466-b6fd-4f43-a06d-a6bc6d26f4c2">
+  <name>booking</name>
+  <synonym>
+    <key>ru</key>
+    <value>Booking</value>
+  </synonym>
+  <rootURL>booking</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="85bc5606-2f3d-4cc1-930d-9dd05bc082e7">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="5c433838-2c61-477b-84b5-0fb48af8297a">
+      <name>ПроверитьДоступность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проверить доступность</value>
+      </synonym>
+      <handler>ПроверитьДоступность</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="05af0c6b-ca58-4409-aa4a-277f58ac7a0c">
+    <name>rooms</name>
+    <synonym>
+      <key>ru</key>
+      <value>Rooms</value>
+    </synonym>
+    <template>/rooms</template>
+    <methods uuid="f156dbfc-038c-4e4f-8b6b-151942c76ea1">
+      <name>ПолучитьНомера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить номера</value>
+      </synonym>
+      <handler>ПолучитьНомера</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="6881dad9-fde7-4630-8d14-2b89848036b5">
+    <name>bookings</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bookings</value>
+    </synonym>
+    <template>/bookings</template>
+    <methods uuid="41a8ffe2-631c-4cc3-87aa-052f32b19a3a">
+      <name>ПолучитьБронирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить бронирования</value>
+      </synonym>
+      <handler>ПолучитьБронирования</handler>
+    </methods>
+    <methods uuid="fa0b93e2-5849-4641-aacb-0399b3a4ad93">
+      <name>ДобавитьБронирование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавить бронирование</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ДобавитьБронирование</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

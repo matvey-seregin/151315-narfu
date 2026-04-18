@@ -15,4 +15,5 @@
   <content>DataProcessor.ВыгрузкаЗагрузкаXLSX</content>
   <content>DataProcessor.ВыгрузкаЗагрузкаCSV</content>
   <content>DataProcessor.ВыгрузкаЗагрузкаXML</content>
+  <content>DataProcessor.ПолучениеДанныхHTTP</content>
 </mdclass:Subsystem>
