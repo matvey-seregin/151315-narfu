@@ -45,6 +45,7 @@
   <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
   <commonModules>CommonModule.ОбработкаДанных</commonModules>
   <xDTOPackages>XDTOPackage.Booking</xDTOPackages>
+  <webServices>WebService.booking</webServices>
   <httpServices>HTTPService.booking</httpServices>
   <catalogs>Catalog.ЗначенияХарактеристик</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -54,6 +55,7 @@
   <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаXLSX</dataProcessors>
   <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаXML</dataProcessors>
   <dataProcessors>DataProcessor.ПолучениеДанныхHTTP</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучениеДанныхSOAP</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСФайлами</dataProcessors>
   <informationRegisters>InformationRegister.ДатыБронирований</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияХарактеристикГостиничныхНомеров</informationRegisters>

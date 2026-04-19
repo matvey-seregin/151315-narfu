@@ -16,4 +16,5 @@
   <content>DataProcessor.ВыгрузкаЗагрузкаCSV</content>
   <content>DataProcessor.ВыгрузкаЗагрузкаXML</content>
   <content>DataProcessor.ПолучениеДанныхHTTP</content>
+  <content>DataProcessor.ПолучениеДанныхSOAP</content>
 </mdclass:Subsystem>

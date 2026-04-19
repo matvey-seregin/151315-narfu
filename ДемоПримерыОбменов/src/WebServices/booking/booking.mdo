@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d069a176-ea34-4c68-bfdd-b18cb94acbc5">
+  <name>booking</name>
+  <synonym>
+    <key>ru</key>
+    <value>Booking</value>
+  </synonym>
+  <namespace>http://narfu.ru/151315/booking</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.Booking</value>
+  </xdtoPackages>
+  <descriptorFileName>booking.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="48b067cf-736d-422f-8d08-0c001341b451">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ping</procedureName>
+  </operations>
+  <operations uuid="8deae8d1-7413-42ce-88e3-79366b9c79e4">
+    <name>GetRooms</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get rooms</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>rooms</name>
+      <nsUri>http://narfu.ru/151315/booking</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetRooms</procedureName>
+  </operations>
+  <operations uuid="4cb7a0d8-d4fe-43c6-9223-c2aab96d3d53">
+    <name>GetBookings</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get bookings</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>books</name>
+      <nsUri>http://narfu.ru/151315/booking</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetBookings</procedureName>
+    <parameters uuid="70bd75b4-b93d-4e5d-8af7-da94936e02c0">
+      <name>Filter</name>
+      <synonym>
+        <key>ru</key>
+        <value>Filter</value>
+      </synonym>
+      <xdtoValueType>
+        <name>booksFilter</name>
+        <nsUri>http://narfu.ru/151315/booking</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="041d2f11-5801-4c8b-ad70-d2558b8d3cd1">
+    <name>CreateBooking</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create booking</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>book</name>
+      <nsUri>http://narfu.ru/151315/booking</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateBooking</procedureName>
+    <parameters uuid="c36afc8d-b0e7-44d0-b256-05fa67d0c834">
+      <name>Booking</name>
+      <synonym>
+        <key>ru</key>
+        <value>Booking</value>
+      </synonym>
+      <xdtoValueType>
+        <name>book</name>
+        <nsUri>http://narfu.ru/151315/booking</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>
